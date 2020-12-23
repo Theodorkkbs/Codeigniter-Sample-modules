@@ -76,7 +76,7 @@ if(isset($_POST["import"]))
    </div>
    <div class="row justify-content-center">
    	<div class="col-md-6 ">
-  <h1>Tasks</h1>
+  <h1>Staff Information</h1>
 <table class="table table-striped">
 	<thead class="thead-dark">
 		<tr>
