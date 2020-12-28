@@ -16,3 +16,10 @@ Reports
 Upload Excel to SQL and Display
 
 currently the report modules and some views are not fully functional
+
+How to run
+Go to the link http://localhost/"your_base_url_here_if_any"/name of the controller you would like to see 
+E.g http://localhost/ci/home/index
+
+PhpSpreadsheet Library
+In order to test the Excel to SQL upload make sure that you have downloaded the latest version of PhpSpreadsheet Library file from the releases section here. 
