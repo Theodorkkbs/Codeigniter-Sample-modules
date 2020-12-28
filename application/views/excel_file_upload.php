@@ -46,17 +46,17 @@ if(isset($_POST["import"]))
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> 
 
 <style >
-	.buttoncenter{
-		text-align: center;
-	}
+  .buttoncenter{
+    text-align: center;
+  }
 
 </style>
 
 </head>
  <body>
- 	<div class="container">
- 	<div class="row justify-content-center">
- 	<div class="col-md-6 ">
+  <div class="container">
+  <div class="row justify-content-center">
+  <div class="col-md-6 ">
    <h3 align="center">Import Excel to Mysql</h3><br />
    <form>
    <div class="form-group">
@@ -75,35 +75,35 @@ if(isset($_POST["import"]))
    </div>
    </div>
    <div class="row justify-content-center">
-   	<div class="col-md-6 ">
+    <div class="col-md-6 ">
   <h1>Staff Information</h1>
 <table class="table table-striped">
-	<thead class="thead-dark">
-		<tr>
-			<th>
-			Name 
-			</th>
-			<th>
-			Email 
-			</th>
-		</tr>
-	</thead>
-	<tbody>
-		
-					<?php foreach($alldata as $data): ?>
+  <thead class="thead-dark">
+    <tr>
+      <th>
+      Name 
+      </th>
+      <th>
+      Email 
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    
+          <?php foreach($alldata as $data): ?>
 
-			<tr>
-				<td>
-					<?php echo $data->excel_name; ?>
-				</td>
-						<td>
-							<?php echo $data->excel_email; ?>
-							</td>
-			<?php endforeach; ?>
-			</tr>
+      <tr>
+        <td>
+          <?php echo $data->excel_name; ?>
+        </td>
+            <td>
+              <?php echo $data->excel_email; ?>
+              </td>
+      <?php endforeach; ?>
+      </tr>
 
 
-	</tbody>
+  </tbody>
 
 
 </table>
