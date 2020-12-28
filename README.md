@@ -25,11 +25,11 @@ E.g http://localhost/ci/home/index
 ###################
 PhpSpreadsheet Library
 ###################
-
+###################
 In order to test the Excel to SQL upload make sure that you have downloaded the latest version of PhpSpreadsheet Library file from the releases section here. 
 ###################
 If you want to remove Duplicates from importing to your SQL, there is an easier way than doing it with PHP. Just copy paste the below code to your SQL.
-###################
+
 
 SET SESSION old_alter_table=1;
 ALTER IGNORE TABLE tblattend ADD UNIQUE INDEX u(fobname);
