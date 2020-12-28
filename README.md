@@ -15,7 +15,6 @@ Reports
 
 Upload Excel to SQL and Display
 
-currently the report modules and some views are not fully functional
 ###################
 How to run
 ###################
