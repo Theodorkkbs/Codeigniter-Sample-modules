@@ -76,7 +76,7 @@ public function import(){
 			$data['alldata']=$this->import_model->get_excel();
             if($this->import_model->insert_Excel($dataListArray) == TRUE){
                 // what to do if import successfull
-                redirect('index');
+                redirect('excel_importer/index');
 			}
         }
     }
