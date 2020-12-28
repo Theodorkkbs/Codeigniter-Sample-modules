@@ -2,17 +2,16 @@
 <!DOCTYPE html>
 <html>
    <head>
-     <title>Import Data From Excel or CSV File to Mysql using PHPSpreadsheet</title>
+     <title>Excel to My SQL import</title>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
    </head>
    <body>
      <div class="container">
       <br />
-      <h3 align="center">Import Data From Excel or CSV File to Mysql using PHPSpreadsheet</h3>
+      <h3 align="center">Staff Information Excel Upload</h3>
       <br />
         <div class="panel panel-default">
-          <div class="panel-heading">Import Data From Excel or CSV File to Mysql using PHPSpreadsheet</div>
           <div class="panel-body">
           <div class="table-responsive">
            <span id="message"></span>

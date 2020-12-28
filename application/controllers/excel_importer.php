@@ -13,7 +13,7 @@ $this->load->model('import_model');
 }
 public function index(){
 $data['alldata']=$this->import_model->get_excel();
-$this->load->view('excel_file_upload',$data);
+$this->load->view('spreadsheet',$data);
 	}
 
 
