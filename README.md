@@ -35,4 +35,4 @@ If you want to remove Duplicates from importing to your SQL, there is an easier 
 
 SET SESSION old_alter_table=1;
 
-ALTER IGNORE TABLE tblattend ADD UNIQUE INDEX u(fobname);
+ALTER IGNORE TABLE register ADD UNIQUE INDEX u(excel_name);
