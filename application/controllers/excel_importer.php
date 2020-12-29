@@ -74,7 +74,9 @@ public function import(){
                     //next row, from top
             }
 			$data['alldata']=$this->import_model->get_excel();
-            if($this->import_model->insert_Excel($dataListArray) == TRUE){
+
+			$newdatalist=array_unique($dataListArray,SORT_REGULAR);
+            if($this->import_model->insert_Excel($newdatalist) == TRUE){
                 // what to do if import successfull
                 redirect('excel_importer/index');
 			}
